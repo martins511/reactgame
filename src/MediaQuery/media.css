@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.app{
+   width: 100vw;
+   height: 100vh;
+}
+.container{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.box_1{
+    background-color: blueviolet;
+}
+.box_2{
+    background-color: yellow;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .app{
+        display: flex;
+     }
+        .box_1{
+        background-color: red;
+    }
+}
